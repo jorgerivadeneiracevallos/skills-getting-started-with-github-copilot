@@ -78,6 +78,9 @@ section h3 {
   margin-top: 15px;
   padding-top: 10px;
   border-top: 1px solid #ddd;
+  background-color: #f1f1f1; /* Added background color for better visibility */
+  padding: 15px; /* Added padding for spacing */
+  border-radius: 4px; /* Added border radius for consistency */
 }
 
 .activity-card .participants h5 {
@@ -89,11 +92,12 @@ section h3 {
 .activity-card .participants ul {
   list-style-type: disc;
   padding-left: 20px;
+  margin-top: 10px; /* Added margin for spacing */
 }
 
 .activity-card .participants ul li {
-  margin-bottom: 5px;
-  color: #333;
+  margin-bottom: 8px; /* Adjusted spacing for better readability */
+  color: #555; /* Slightly lighter color for better contrast */
   font-size: 14px;
 }
 
